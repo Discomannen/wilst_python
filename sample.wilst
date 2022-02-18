@@ -1,0 +1,60 @@
+# Define amount of lists using list amount (lam)
+lam = 2
+
+# Define variables
+let a = int(3)
+let b = str("Hello World: ")
+let c = chr('r')
+let d = str(0)
+let e = flo(0.34)
+let f = bol(True)
+
+# Tell which variables fit into which lists and which places
+# Blank space gets filled in with 0
+a E l1[0]
+b E l1[4]
+c E l1[2]
+
+# Print entire list
+pri(l1)
+
+# Print element in list. You cannot print an element unless that element is in a list.
+
+pri(l1[1])
+
+# Input into variable. You can only input into a variable outside of a list.
+inp(d)
+
+d E l2[0]
+
+pri(l2[0])
+
+# Remove/untie element from list
+a !E l1
+
+# Input
+inp(a)
+
+# Place back into the list. If left blank: push_back
+a E l2[1]
+
+pri(l2[1])
+
+///
+Add in the future:
+1. loops
+2. list functions such as sorting, flipping etc.
+3. defining own functions
+4. replace 0 for empty with Ø
+\\\
+
+///
+TODO:
+[X]Lägg till en "unassigned" vector för alla varibler som inte passar in. Bind sedan dessa till när variablen har deklarerats.
+[O]Se över alla funktioners if funktioner för att reducera att man kan skriva ologiska argument och fortfarande låta dem fungera.
+[X]Bli klar med alla funktioner från sample.wilst
+[O]Lägg till booleanska operatorer samt simpel aritmatik (+, -, *, /, mod(), ^)
+
+Supported variable types:
+all that python lists support
+\\\

@@ -1,0 +1,4 @@
+lam = 1
+let a = str("Hello World!")
+a E l1
+pri(l1[0])

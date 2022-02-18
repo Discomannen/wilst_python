@@ -1,0 +1,17 @@
+lam = 1
+let a = int(68)
+let b = int(90)
+let c = str("yo mom")
+
+c E l1
+
+pri(l1[0])
+
+c !E l1
+
+c = 2 ^ 2
+
+
+c E l1
+
+pri(l1[0])
